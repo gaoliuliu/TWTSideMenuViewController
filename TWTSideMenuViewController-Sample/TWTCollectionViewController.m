@@ -1,27 +1,30 @@
 //
-//  TWTMainViewController.m
+//  TWTCollectionViewController.m
 //  TWTSideMenuViewController-Sample
 //
-//  Created by Josh Johnson on 8/14/13.
-//  Copyright (c) 2013 Two Toasters. All rights reserved.
+//  Created by gaowei on 14-6-7.
+//  Copyright (c) 2014年 Two Toasters. All rights reserved.
 //
 
-#import "TWTMainViewController.h"
+#import "TWTCollectionViewController.h"
 #import "TWTSideMenuViewController.h"
-
 static NSString * const kTableViewCellIdentifier = @"com.twotoasters.sampleCell";
 
-@interface TWTMainViewController ()
+@interface TWTCollectionViewController ()
 
 @end
 
-@implementation TWTMainViewController
+
+
+
+
+@implementation TWTCollectionViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-   
-    self.title = @"分类讨论";
+    
+    self.title = @"我的收藏";
     self.view.backgroundColor = [UIColor grayColor];
     
     UIBarButtonItem *openItem = [[UIBarButtonItem alloc] initWithTitle:@"Open" style:UIBarButtonItemStylePlain target:self action:@selector(openButtonPressed)];
@@ -53,3 +56,4 @@ static NSString * const kTableViewCellIdentifier = @"com.twotoasters.sampleCell"
 }
 
 @end
+

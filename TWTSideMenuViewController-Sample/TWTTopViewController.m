@@ -1,45 +1,52 @@
 //
-//  TWTMainViewController.m
+//  TWTTopViewController.m
 //  TWTSideMenuViewController-Sample
 //
-//  Created by Josh Johnson on 8/14/13.
-//  Copyright (c) 2013 Two Toasters. All rights reserved.
+//  Created by gaowei on 14-6-7.
+//  Copyright (c) 2014年 Two Toasters. All rights reserved.
 //
 
-#import "TWTMainViewController.h"
+//
+
+#import "TWTTopViewController.h"
 #import "TWTSideMenuViewController.h"
+#import "RequestHandler.h"
 
 static NSString * const kTableViewCellIdentifier = @"com.twotoasters.sampleCell";
 
-@interface TWTMainViewController ()
-
+@interface TWTTopViewController ()
 @end
 
-@implementation TWTMainViewController
+@implementation TWTTopViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-   
-    self.title = @"分类讨论";
+    RequestHandler *request  = [[RequestHandler alloc]init];
+    [request grabURL];
+    self.title = @"本日十大";
     self.view.backgroundColor = [UIColor grayColor];
     
     UIBarButtonItem *openItem = [[UIBarButtonItem alloc] initWithTitle:@"Open" style:UIBarButtonItemStylePlain target:self action:@selector(openButtonPressed)];
     self.navigationItem.leftBarButtonItem = openItem;
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kTableViewCellIdentifier];
+    
+    
+   // [self.request grabURL];
 }
 
 - (void)openButtonPressed
 {
     [self.sideMenuViewController openMenuAnimated:YES completion:nil];
+   
 }
 
 #pragma mark - UITableViewDelegate & UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 40;
+    return 10;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -50,6 +57,8 @@ static NSString * const kTableViewCellIdentifier = @"com.twotoasters.sampleCell"
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     cell.textLabel.text = [NSString stringWithFormat:@"Row %i", indexPath.row + 1];
+    //cell.textLabel.textColor = [UIColor redColor];
 }
 
 @end
+

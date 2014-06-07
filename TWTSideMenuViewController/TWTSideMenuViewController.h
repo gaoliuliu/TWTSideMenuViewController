@@ -40,7 +40,7 @@ typedef NS_ENUM(NSInteger, TWTSideMenuAnimationType) {
 };
 
 /** Apply to this delegate to get several side menu events */
-@property (nonatomic, weak) id<TWTSideMenuViewControllerDelegate> delegate;
+@property (nonatomic, strong) id<TWTSideMenuViewControllerDelegate> delegate;
 
 /** The animation type - will default to Slide Over. */
 @property (nonatomic, assign) TWTSideMenuAnimationType animationType;
@@ -111,7 +111,7 @@ typedef NS_ENUM(NSInteger, TWTSideMenuAnimationType) {
 
 @interface UIViewController (TWTSideMenuViewController)
 
-@property (nonatomic, weak) TWTSideMenuViewController *sideMenuViewController;
+@property (nonatomic, strong) TWTSideMenuViewController *sideMenuViewController;
 
 @end
 

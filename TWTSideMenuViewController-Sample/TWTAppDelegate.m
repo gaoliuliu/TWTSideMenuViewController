@@ -9,7 +9,8 @@
 #import "TWTAppDelegate.h"
 #import "TWTMenuViewController.h"
 #import "TWTMainViewController.h"
-
+#import "TWTTopViewController.h"
+#import "TWTCollectionViewController.h"
 #import "TWTSideMenuViewController.h"
 
 @interface TWTAppDelegate ()
@@ -17,7 +18,8 @@
 @property (nonatomic, strong) TWTSideMenuViewController *sideMenuViewController;
 @property (nonatomic, strong) TWTMenuViewController *menuViewController;
 @property (nonatomic, strong) TWTMainViewController *mainViewController;
-
+@property (nonatomic, strong) TWTTopViewController *topViewController;
+@property (nonatomic, strong) TWTCollectionViewController *collectionViewController;
 @end
 
 @implementation TWTAppDelegate
@@ -28,6 +30,13 @@
 
     self.menuViewController = [[TWTMenuViewController alloc] initWithNibName:nil bundle:nil];
     self.mainViewController = [[TWTMainViewController alloc] initWithNibName:nil bundle:nil];
+    self.topViewController = [[TWTTopViewController alloc]initWithNibName:nil bundle:nil];
+    self.collectionViewController = [[TWTCollectionViewController alloc]initWithNibName:nil bundle:nil];
+
+    
+    
+    
+    
     
     self.sideMenuViewController = [[TWTSideMenuViewController alloc] initWithMenuViewController:self.menuViewController mainViewController:[[UINavigationController alloc] initWithRootViewController:self.mainViewController]];
     self.sideMenuViewController.shadowColor = [UIColor blackColor];
