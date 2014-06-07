@@ -10,7 +10,7 @@
 #import "ASIHTTPRequest.h"
 @implementation RequestHandler
 
--(void)grabURL:(NSString *)reqUrl;
+-(NSString *)grabURL:(NSString *)reqUrl
 {
     
     NSURL *url = [NSURL URLWithString:@"http://bbs.fudan.edu.cn/bbs/top10"];
@@ -26,8 +26,8 @@
         
         NSString *response = [request responseString];
         NSLog(@"Response :%@",response);
-        
+        return response;
     }
-    
+    return nil;
 }
 @end

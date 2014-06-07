@@ -1,5 +1,5 @@
 //
-//  RequestHandler.h
+//  Top.h
 //  TWTSideMenuViewController-Sample
 //
 //  Created by gaowei on 14-6-7.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface RequestHandler : NSObject
-
--(NSString *)grabURL:(NSString *)reqUrl;
+@interface Top : NSObject
+@property (strong,nonatomic) NSString *title;
+@property (nonatomic) int *number;
 @end

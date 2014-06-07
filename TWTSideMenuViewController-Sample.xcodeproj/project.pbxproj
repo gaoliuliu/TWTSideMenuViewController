@@ -24,6 +24,8 @@
 		650CE9301942C6DD001D5DF3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650CE92F1942C6DD001D5DF3 /* MobileCoreServices.framework */; };
 		650CE9321942C717001D5DF3 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 650CE9311942C717001D5DF3 /* libz.1.2.5.dylib */; };
 		650CE9351942C903001D5DF3 /* README-GHUnit in Resources */ = {isa = PBXBuildFile; fileRef = 650CE9341942C903001D5DF3 /* README-GHUnit */; };
+		650CE9381942D1A3001D5DF3 /* ResponseParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 650CE9371942D1A3001D5DF3 /* ResponseParse.m */; };
+		650CE93B1942DF0F001D5DF3 /* Top.m in Sources */ = {isa = PBXBuildFile; fileRef = 650CE93A1942DF0F001D5DF3 /* Top.m */; };
 		A43DC61C17CCE1A500F16C6A /* galaxy.png in Resources */ = {isa = PBXBuildFile; fileRef = A43DC61B17CCE1A500F16C6A /* galaxy.png */; };
 		A4485E6417BBCA75002B32C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4485E6317BBCA75002B32C4 /* Foundation.framework */; };
 		A4485E6617BBCA75002B32C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4485E6517BBCA75002B32C4 /* CoreGraphics.framework */; };
@@ -86,6 +88,10 @@
 		650CE92F1942C6DD001D5DF3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		650CE9311942C717001D5DF3 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 		650CE9341942C903001D5DF3 /* README-GHUnit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "README-GHUnit"; sourceTree = "<group>"; };
+		650CE9361942D1A3001D5DF3 /* ResponseParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseParse.h; sourceTree = "<group>"; };
+		650CE9371942D1A3001D5DF3 /* ResponseParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseParse.m; sourceTree = "<group>"; };
+		650CE9391942DF0F001D5DF3 /* Top.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Top.h; path = Classes/Top.h; sourceTree = "<group>"; };
+		650CE93A1942DF0F001D5DF3 /* Top.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Top.m; path = Classes/Top.m; sourceTree = "<group>"; };
 		A43DC61B17CCE1A500F16C6A /* galaxy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galaxy.png; sourceTree = "<group>"; };
 		A4485E6017BBCA75002B32C4 /* TWTSideMenuViewController-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TWTSideMenuViewController-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4485E6317BBCA75002B32C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -225,6 +231,8 @@
 		A4485E6917BBCA75002B32C4 /* TWTSideMenuViewController-Sample */ = {
 			isa = PBXGroup;
 			children = (
+				650CE9391942DF0F001D5DF3 /* Top.h */,
+				650CE93A1942DF0F001D5DF3 /* Top.m */,
 				650CE8AF1942C522001D5DF3 /* RequestClasses */,
 				650CE8AC1942BA07001D5DF3 /* RequestHandler.h */,
 				650CE8AD1942BA07001D5DF3 /* RequestHandler.m */,
@@ -239,6 +247,8 @@
 				A495C4D817BC109F00B880E4 /* TWTMainViewController.h */,
 				A495C4D917BC109F00B880E4 /* TWTMainViewController.m */,
 				650CE8A61942B1CB001D5DF3 /* TWTTopViewController.m */,
+				650CE9361942D1A3001D5DF3 /* ResponseParse.h */,
+				650CE9371942D1A3001D5DF3 /* ResponseParse.m */,
 				650CE8A81942B1EF001D5DF3 /* TWTTopViewController.h */,
 				A4485E6A17BBCA75002B32C4 /* Supporting Files */,
 			);
@@ -382,6 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				650CE9381942D1A3001D5DF3 /* ResponseParse.m in Sources */,
 				650CE9031942C522001D5DF3 /* ASIDataCompressor.m in Sources */,
 				A4485E7417BBCA75002B32C4 /* TWTAppDelegate.m in Sources */,
 				650CE9061942C522001D5DF3 /* ASIFormDataRequest.m in Sources */,
@@ -395,6 +406,7 @@
 				650CE8AB1942B608001D5DF3 /* TWTCollectionViewController.m in Sources */,
 				650CE9041942C522001D5DF3 /* ASIDataDecompressor.m in Sources */,
 				650CE9081942C522001D5DF3 /* ASIInputStream.m in Sources */,
+				650CE93B1942DF0F001D5DF3 /* Top.m in Sources */,
 				650CE9071942C522001D5DF3 /* ASIHTTPRequest.m in Sources */,
 				650CE92A1942C563001D5DF3 /* Reachability.m in Sources */,
 				650CE8A71942B1CB001D5DF3 /* TWTTopViewController.m in Sources */,
