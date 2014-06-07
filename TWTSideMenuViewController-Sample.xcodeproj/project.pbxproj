@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		650CE8A71942B1CB001D5DF3 /* TWTTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650CE8A61942B1CB001D5DF3 /* TWTTopViewController.m */; };
+		650CE8AB1942B608001D5DF3 /* TWTCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650CE8AA1942B608001D5DF3 /* TWTCollectionViewController.m */; };
+		650CE8AE1942BA07001D5DF3 /* RequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 650CE8AD1942BA07001D5DF3 /* RequestHandler.m */; };
+		650CE9021942C522001D5DF3 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 650CE8B11942C522001D5DF3 /* ASIAuthenticationDialog.m */; };
+		650CE9031942C522001D5DF3 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 650CE8B41942C522001D5DF3 /* ASIDataCompressor.m */; };
+		650CE9041942C522001D5DF3 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 650CE8B61942C522001D5DF3 /* ASIDataDecompressor.m */; };
+		650CE9051942C522001D5DF3 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 650CE8B81942C522001D5DF3 /* ASIDownloadCache.m */; };
+		650CE9061942C522001D5DF3 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 650CE8BA1942C522001D5DF3 /* ASIFormDataRequest.m */; };
+		650CE9071942C522001D5DF3 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 650CE8BC1942C522001D5DF3 /* ASIHTTPRequest.m */; };
+		650CE9081942C522001D5DF3 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 650CE8C01942C522001D5DF3 /* ASIInputStream.m */; };
+		650CE9091942C522001D5DF3 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 650CE8C21942C522001D5DF3 /* ASINetworkQueue.m */; };
+		650CE92A1942C563001D5DF3 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 650CE9291942C563001D5DF3 /* Reachability.m */; };
+		650CE92C1942C6B9001D5DF3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650CE92B1942C6B9001D5DF3 /* CFNetwork.framework */; };
+		650CE92E1942C6CA001D5DF3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650CE92D1942C6CA001D5DF3 /* SystemConfiguration.framework */; };
+		650CE9301942C6DD001D5DF3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650CE92F1942C6DD001D5DF3 /* MobileCoreServices.framework */; };
+		650CE9321942C717001D5DF3 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 650CE9311942C717001D5DF3 /* libz.1.2.5.dylib */; };
+		650CE9351942C903001D5DF3 /* README-GHUnit in Resources */ = {isa = PBXBuildFile; fileRef = 650CE9341942C903001D5DF3 /* README-GHUnit */; };
 		A43DC61C17CCE1A500F16C6A /* galaxy.png in Resources */ = {isa = PBXBuildFile; fileRef = A43DC61B17CCE1A500F16C6A /* galaxy.png */; };
 		A4485E6417BBCA75002B32C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4485E6317BBCA75002B32C4 /* Foundation.framework */; };
 		A4485E6617BBCA75002B32C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4485E6517BBCA75002B32C4 /* CoreGraphics.framework */; };
@@ -36,6 +53,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		650CE8A61942B1CB001D5DF3 /* TWTTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTTopViewController.m; sourceTree = "<group>"; };
+		650CE8A81942B1EF001D5DF3 /* TWTTopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTTopViewController.h; sourceTree = "<group>"; };
+		650CE8A91942B608001D5DF3 /* TWTCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTCollectionViewController.h; sourceTree = "<group>"; };
+		650CE8AA1942B608001D5DF3 /* TWTCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTCollectionViewController.m; sourceTree = "<group>"; };
+		650CE8AC1942BA07001D5DF3 /* RequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestHandler.h; sourceTree = "<group>"; };
+		650CE8AD1942BA07001D5DF3 /* RequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestHandler.m; sourceTree = "<group>"; };
+		650CE8B01942C522001D5DF3 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		650CE8B11942C522001D5DF3 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		650CE8B21942C522001D5DF3 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		650CE8B31942C522001D5DF3 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		650CE8B41942C522001D5DF3 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		650CE8B51942C522001D5DF3 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		650CE8B61942C522001D5DF3 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		650CE8B71942C522001D5DF3 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		650CE8B81942C522001D5DF3 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		650CE8B91942C522001D5DF3 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		650CE8BA1942C522001D5DF3 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		650CE8BB1942C522001D5DF3 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		650CE8BC1942C522001D5DF3 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		650CE8BD1942C522001D5DF3 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		650CE8BE1942C522001D5DF3 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		650CE8BF1942C522001D5DF3 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		650CE8C01942C522001D5DF3 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		650CE8C11942C522001D5DF3 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		650CE8C21942C522001D5DF3 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		650CE8C31942C522001D5DF3 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		650CE9281942C563001D5DF3 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		650CE9291942C563001D5DF3 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		650CE92B1942C6B9001D5DF3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		650CE92D1942C6CA001D5DF3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		650CE92F1942C6DD001D5DF3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		650CE9311942C717001D5DF3 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		650CE9341942C903001D5DF3 /* README-GHUnit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "README-GHUnit"; sourceTree = "<group>"; };
 		A43DC61B17CCE1A500F16C6A /* galaxy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galaxy.png; sourceTree = "<group>"; };
 		A4485E6017BBCA75002B32C4 /* TWTSideMenuViewController-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TWTSideMenuViewController-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4485E6317BBCA75002B32C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,6 +117,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				650CE9321942C717001D5DF3 /* libz.1.2.5.dylib in Frameworks */,
+				650CE9301942C6DD001D5DF3 /* MobileCoreServices.framework in Frameworks */,
+				650CE92E1942C6CA001D5DF3 /* SystemConfiguration.framework in Frameworks */,
+				650CE92C1942C6B9001D5DF3 /* CFNetwork.framework in Frameworks */,
 				A4485E6617BBCA75002B32C4 /* CoreGraphics.framework in Frameworks */,
 				A4485E6817BBCA75002B32C4 /* UIKit.framework in Frameworks */,
 				A4485E6417BBCA75002B32C4 /* Foundation.framework in Frameworks */,
@@ -86,6 +140,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		650CE8AF1942C522001D5DF3 /* RequestClasses */ = {
+			isa = PBXGroup;
+			children = (
+				650CE9331942C903001D5DF3 /* GHUnit */,
+				650CE9271942C563001D5DF3 /* Reachability */,
+				650CE8B01942C522001D5DF3 /* ASIAuthenticationDialog.h */,
+				650CE8B11942C522001D5DF3 /* ASIAuthenticationDialog.m */,
+				650CE8B21942C522001D5DF3 /* ASICacheDelegate.h */,
+				650CE8B31942C522001D5DF3 /* ASIDataCompressor.h */,
+				650CE8B41942C522001D5DF3 /* ASIDataCompressor.m */,
+				650CE8B51942C522001D5DF3 /* ASIDataDecompressor.h */,
+				650CE8B61942C522001D5DF3 /* ASIDataDecompressor.m */,
+				650CE8B71942C522001D5DF3 /* ASIDownloadCache.h */,
+				650CE8B81942C522001D5DF3 /* ASIDownloadCache.m */,
+				650CE8B91942C522001D5DF3 /* ASIFormDataRequest.h */,
+				650CE8BA1942C522001D5DF3 /* ASIFormDataRequest.m */,
+				650CE8BB1942C522001D5DF3 /* ASIHTTPRequest.h */,
+				650CE8BC1942C522001D5DF3 /* ASIHTTPRequest.m */,
+				650CE8BD1942C522001D5DF3 /* ASIHTTPRequestConfig.h */,
+				650CE8BE1942C522001D5DF3 /* ASIHTTPRequestDelegate.h */,
+				650CE8BF1942C522001D5DF3 /* ASIInputStream.h */,
+				650CE8C01942C522001D5DF3 /* ASIInputStream.m */,
+				650CE8C11942C522001D5DF3 /* ASINetworkQueue.h */,
+				650CE8C21942C522001D5DF3 /* ASINetworkQueue.m */,
+				650CE8C31942C522001D5DF3 /* ASIProgressDelegate.h */,
+			);
+			name = RequestClasses;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		650CE9271942C563001D5DF3 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				650CE9281942C563001D5DF3 /* Reachability.h */,
+				650CE9291942C563001D5DF3 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		650CE9331942C903001D5DF3 /* GHUnit */ = {
+			isa = PBXGroup;
+			children = (
+				650CE9341942C903001D5DF3 /* README-GHUnit */,
+			);
+			path = GHUnit;
+			sourceTree = "<group>";
+		};
 		A4485E5717BBCA75002B32C4 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +210,10 @@
 		A4485E6217BBCA75002B32C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				650CE9311942C717001D5DF3 /* libz.1.2.5.dylib */,
+				650CE92F1942C6DD001D5DF3 /* MobileCoreServices.framework */,
+				650CE92D1942C6CA001D5DF3 /* SystemConfiguration.framework */,
+				650CE92B1942C6B9001D5DF3 /* CFNetwork.framework */,
 				A4485E6317BBCA75002B32C4 /* Foundation.framework */,
 				A4485E6517BBCA75002B32C4 /* CoreGraphics.framework */,
 				A4485E6717BBCA75002B32C4 /* UIKit.framework */,
@@ -120,14 +225,21 @@
 		A4485E6917BBCA75002B32C4 /* TWTSideMenuViewController-Sample */ = {
 			isa = PBXGroup;
 			children = (
+				650CE8AF1942C522001D5DF3 /* RequestClasses */,
+				650CE8AC1942BA07001D5DF3 /* RequestHandler.h */,
+				650CE8AD1942BA07001D5DF3 /* RequestHandler.m */,
 				A43DC61B17CCE1A500F16C6A /* galaxy.png */,
 				A495C4DB17BC11F500B880E4 /* Images.xcassets */,
 				A4485E7217BBCA75002B32C4 /* TWTAppDelegate.h */,
 				A4485E7317BBCA75002B32C4 /* TWTAppDelegate.m */,
 				A495C4D517BC109600B880E4 /* TWTMenuViewController.h */,
 				A495C4D617BC109600B880E4 /* TWTMenuViewController.m */,
+				650CE8A91942B608001D5DF3 /* TWTCollectionViewController.h */,
+				650CE8AA1942B608001D5DF3 /* TWTCollectionViewController.m */,
 				A495C4D817BC109F00B880E4 /* TWTMainViewController.h */,
 				A495C4D917BC109F00B880E4 /* TWTMainViewController.m */,
+				650CE8A61942B1CB001D5DF3 /* TWTTopViewController.m */,
+				650CE8A81942B1EF001D5DF3 /* TWTTopViewController.h */,
 				A4485E6A17BBCA75002B32C4 /* Supporting Files */,
 			);
 			path = "TWTSideMenuViewController-Sample";
@@ -217,7 +329,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TWT;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Two Toasters";
 				TargetAttributes = {
 					A4CBEDF118890683000A1EB1 = {
@@ -251,6 +363,7 @@
 				A4485E6E17BBCA75002B32C4 /* InfoPlist.strings in Resources */,
 				A43DC61C17CCE1A500F16C6A /* galaxy.png in Resources */,
 				A495C4DC17BC11F500B880E4 /* Images.xcassets in Resources */,
+				650CE9351942C903001D5DF3 /* README-GHUnit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,10 +382,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				650CE9031942C522001D5DF3 /* ASIDataCompressor.m in Sources */,
 				A4485E7417BBCA75002B32C4 /* TWTAppDelegate.m in Sources */,
+				650CE9061942C522001D5DF3 /* ASIFormDataRequest.m in Sources */,
+				650CE9051942C522001D5DF3 /* ASIDownloadCache.m in Sources */,
 				A495C4DA17BC109F00B880E4 /* TWTMainViewController.m in Sources */,
+				650CE8AE1942BA07001D5DF3 /* RequestHandler.m in Sources */,
 				A4485E7017BBCA75002B32C4 /* main.m in Sources */,
+				650CE9021942C522001D5DF3 /* ASIAuthenticationDialog.m in Sources */,
+				650CE9091942C522001D5DF3 /* ASINetworkQueue.m in Sources */,
 				A45D359417BBDF6B00BEF872 /* TWTSideMenuViewController.m in Sources */,
+				650CE8AB1942B608001D5DF3 /* TWTCollectionViewController.m in Sources */,
+				650CE9041942C522001D5DF3 /* ASIDataDecompressor.m in Sources */,
+				650CE9081942C522001D5DF3 /* ASIInputStream.m in Sources */,
+				650CE9071942C522001D5DF3 /* ASIHTTPRequest.m in Sources */,
+				650CE92A1942C563001D5DF3 /* Reachability.m in Sources */,
+				650CE8A71942B1CB001D5DF3 /* TWTTopViewController.m in Sources */,
 				A495C4D717BC109600B880E4 /* TWTMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TWTSideMenuViewController-Sample/TWTSideMenuViewController-Sample-Prefix.pch";
 				INFOPLIST_FILE = "TWTSideMenuViewController-Sample/TWTSideMenuViewController-Sample-Info.plist";
@@ -404,6 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TWTSideMenuViewController-Sample/TWTSideMenuViewController-Sample-Prefix.pch";
 				INFOPLIST_FILE = "TWTSideMenuViewController-Sample/TWTSideMenuViewController-Sample-Info.plist";
@@ -416,7 +543,6 @@
 		A4CBEE0218890683000A1EB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TWTSideMenuViewController-Sample.app/TWTSideMenuViewController-Sample";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -441,7 +567,6 @@
 		A4CBEE0318890683000A1EB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TWTSideMenuViewController-Sample.app/TWTSideMenuViewController-Sample";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -487,6 +612,7 @@
 				A4CBEE0318890683000A1EB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
