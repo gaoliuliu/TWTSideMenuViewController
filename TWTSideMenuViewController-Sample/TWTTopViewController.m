@@ -12,12 +12,12 @@
 #import "TWTSideMenuViewController.h"
 #import "RequestHandler.h"
 #import "ResponseParse.h"
-
+#import "TWTPostViewController.h"
 
 static NSString * const kTableViewCellIdentifier = @"com.twotoasters.sampleCell";
 
 @interface TWTTopViewController ()
-@property (strong,nonatomic)NSArray * result;
+@property (strong,nonatomic)NSMutableArray * result;
 @end
 
 @implementation TWTTopViewController
@@ -63,13 +63,24 @@ static NSString * const kTableViewCellIdentifier = @"com.twotoasters.sampleCell"
 {
    
         Top *t = [self.result objectAtIndex:indexPath.row];
-        
-        
-        cell.textLabel.text = [NSString stringWithFormat:@"(%i)  %@", t.number,t.title];
+              cell.textLabel.text = [NSString stringWithFormat:@"(%i)  %@", t.number,t.title];
 
-    
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
 }
+
+-(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    UINavigationController *controller = [[UINavigationController alloc] initWithRootViewController:[TWTPostViewController new]];
+    TWTPostViewController *p = [[controller viewControllers] firstObject];
+    p.result= self.result;
+    //TWTPostViewController *controller = [[TWTPostViewController alloc] initWithNibName:@"TWTPostViewController" bundle:[NSBundle mainBundle]];
+    //controller.result = self.result;
+    //[self presentModalViewController:controller animated:YES];
+    [self.sideMenuViewController setMainViewController:controller animated:YES closeMenu:YES];
+}
+
 
 @end
 

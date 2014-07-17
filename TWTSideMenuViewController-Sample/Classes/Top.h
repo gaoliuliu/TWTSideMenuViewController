@@ -10,5 +10,5 @@
 
 @interface Top : NSObject
 @property (strong,nonatomic) NSString *title;
-@property (nonatomic) int *number;
+@property (nonatomic) int number;
 @end

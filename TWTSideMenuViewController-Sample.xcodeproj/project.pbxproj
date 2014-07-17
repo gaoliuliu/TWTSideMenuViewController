@@ -26,6 +26,7 @@
 		650CE9351942C903001D5DF3 /* README-GHUnit in Resources */ = {isa = PBXBuildFile; fileRef = 650CE9341942C903001D5DF3 /* README-GHUnit */; };
 		650CE9381942D1A3001D5DF3 /* ResponseParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 650CE9371942D1A3001D5DF3 /* ResponseParse.m */; };
 		650CE93B1942DF0F001D5DF3 /* Top.m in Sources */ = {isa = PBXBuildFile; fileRef = 650CE93A1942DF0F001D5DF3 /* Top.m */; };
+		650CE93E1942F592001D5DF3 /* TWTPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650CE93D1942F592001D5DF3 /* TWTPostViewController.m */; };
 		A43DC61C17CCE1A500F16C6A /* galaxy.png in Resources */ = {isa = PBXBuildFile; fileRef = A43DC61B17CCE1A500F16C6A /* galaxy.png */; };
 		A4485E6417BBCA75002B32C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4485E6317BBCA75002B32C4 /* Foundation.framework */; };
 		A4485E6617BBCA75002B32C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4485E6517BBCA75002B32C4 /* CoreGraphics.framework */; };
@@ -92,6 +93,8 @@
 		650CE9371942D1A3001D5DF3 /* ResponseParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseParse.m; sourceTree = "<group>"; };
 		650CE9391942DF0F001D5DF3 /* Top.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Top.h; path = Classes/Top.h; sourceTree = "<group>"; };
 		650CE93A1942DF0F001D5DF3 /* Top.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Top.m; path = Classes/Top.m; sourceTree = "<group>"; };
+		650CE93C1942F592001D5DF3 /* TWTPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWTPostViewController.h; path = "TWTSideMenuViewController-Sample/TWTPostViewController.h"; sourceTree = SOURCE_ROOT; };
+		650CE93D1942F592001D5DF3 /* TWTPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWTPostViewController.m; path = "TWTSideMenuViewController-Sample/TWTPostViewController.m"; sourceTree = SOURCE_ROOT; };
 		A43DC61B17CCE1A500F16C6A /* galaxy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galaxy.png; sourceTree = "<group>"; };
 		A4485E6017BBCA75002B32C4 /* TWTSideMenuViewController-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TWTSideMenuViewController-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4485E6317BBCA75002B32C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -231,6 +234,8 @@
 		A4485E6917BBCA75002B32C4 /* TWTSideMenuViewController-Sample */ = {
 			isa = PBXGroup;
 			children = (
+				650CE93C1942F592001D5DF3 /* TWTPostViewController.h */,
+				650CE93D1942F592001D5DF3 /* TWTPostViewController.m */,
 				650CE9391942DF0F001D5DF3 /* Top.h */,
 				650CE93A1942DF0F001D5DF3 /* Top.m */,
 				650CE8AF1942C522001D5DF3 /* RequestClasses */,
@@ -406,6 +411,7 @@
 				650CE8AB1942B608001D5DF3 /* TWTCollectionViewController.m in Sources */,
 				650CE9041942C522001D5DF3 /* ASIDataDecompressor.m in Sources */,
 				650CE9081942C522001D5DF3 /* ASIInputStream.m in Sources */,
+				650CE93E1942F592001D5DF3 /* TWTPostViewController.m in Sources */,
 				650CE93B1942DF0F001D5DF3 /* Top.m in Sources */,
 				650CE9071942C522001D5DF3 /* ASIHTTPRequest.m in Sources */,
 				650CE92A1942C563001D5DF3 /* Reachability.m in Sources */,
